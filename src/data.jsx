@@ -18,8 +18,8 @@ import Headboy from "./assets/GalleryImages/Headboy.jpg";
 import SII from "./assets/GalleryImages/SII.jpg";
 
 import { nanoid } from "nanoid";
-import { DiMongodb, DiMysql, DiGithub, DiVisualstudio } from "react-icons/di";
-import { FaJs, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
+import { DiMongodb, DiMysql, DiVisualstudio, DiHtml5 } from "react-icons/di";
+import { FaJs, FaNodeJs, FaPython, FaReact, FaGithub } from "react-icons/fa";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -31,6 +31,12 @@ export const links = [
 ];
 
 export const skills = [
+  {
+    id: nanoid(),
+    title: "HTML & CSS",
+    icon: <DiHtml5 className="h-16 w-16 text-gray-300" />,
+    text: "Highly skilled in HTML & CSS, creating visually appealing and responsive websites for optimal user experience.",
+  },
   {
     id: nanoid(),
     title: "React",
@@ -70,7 +76,7 @@ export const skills = [
   {
     id: nanoid(),
     title: "GitHub",
-    icon: <DiGithub className="h-16 w-16 text-gray-300" />,
+    icon: <FaGithub className="h-16 w-16 text-gray-300" />,
     text: "Experienced with GitHub, a leading platform for version control and collaborative software development. It manages code repositories and tracks changes.",
   },
   {
