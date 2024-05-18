@@ -18,7 +18,7 @@ import Headboy from "./assets/GalleryImages/Headboy.jpg";
 import SII from "./assets/GalleryImages/SII.jpg";
 
 import { nanoid } from "nanoid";
-import { DiMongodb, DiMysql } from "react-icons/di";
+import { DiMongodb, DiMysql, DiGithub, DiVisualstudio } from "react-icons/di";
 import { FaJs, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
 
 export const links = [
@@ -66,6 +66,18 @@ export const skills = [
     title: "Python",
     icon: <FaPython className="h-16 w-16 text-gray-300" />,
     text: "A strong understanding in python for problem solving and competitve programming.",
+  },
+  {
+    id: nanoid(),
+    title: "GitHub",
+    icon: <DiGithub className="h-16 w-16 text-gray-300" />,
+    text: "Experienced with GitHub, a leading platform for version control and collaborative software development. It manages code repositories and tracks changes.",
+  },
+  {
+    id: nanoid(),
+    title: "VS Code",
+    icon: <DiVisualstudio className="h-16 w-16 text-gray-300" />,
+    text: "I utilize VS Code extensively, a source code editor, in my development projects due to its intuitive interface, robust features, and extensive extension marketplace.",
   },
 ];
 
