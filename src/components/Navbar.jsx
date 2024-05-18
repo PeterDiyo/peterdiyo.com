@@ -1,16 +1,35 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { links } from "../data";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 640);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
-    <nav className="bg-gray-800">
+    <nav
+      className={`bg-gray-800 ${
+        isSmallScreen ? "fixed top-0 left-0 w-full z-50" : ""
+      }`}
+    >
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:justify-between sm:py-8">
         <h2 className="text-2xl font-bold text-gray-100 font-serif">the_SWE</h2>
         <div className="hidden sm:flex gap-x-3">

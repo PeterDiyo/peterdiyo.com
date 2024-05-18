@@ -72,7 +72,7 @@ const Contact = () => {
         </div>
       </div>
       <footer className="bg-gray-800 text-gray-300 py-1 text-center">
-        <div className="hidden sm:flex gap-x-3 items-center justify-center my-4 space-x-10">
+        <div className="hidden sm:flex gap-x-3 items-center justify-center my-4 space-x-32">
           {links.map((link) => {
             const { id, href, text } = link;
             return (

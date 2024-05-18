@@ -3,6 +3,7 @@ import CG from "./assets/projects/CG.png";
 import imgs from "./assets/projects/imgs.png";
 import menu from "./assets/projects/menu.png";
 import Viz from "./assets/projects/Visualizer.png";
+import Shopcart from "./assets/projects/shopcart.png";
 
 import Literature from "./assets/GalleryImages/lit.jpg";
 import Java from "./assets/GalleryImages/jav.jpg";
@@ -108,6 +109,14 @@ export const projects = [
     github: "https://github.com/PeterDiyo/menu",
     title: "ease menu",
     text: "easily filter your food menu preferences with only a single click whether you are looking for your favorite lunch menu, or you want to try out some delicious zambian dishes.",
+  },
+  {
+    id: nanoid(),
+    img: Shopcart,
+    url: "https://shopping-cart-diyo.netlify.app/",
+    github: "https://github.com/PeterDiyo/Shopping-Cart",
+    title: "Shopping Cart - Redux Toolkit",
+    text: "Effective management of state, simplifying various aspects of Redux development by providing concise APIs for common tasks like creating Redux stores, writing reducers, and creating actions",
   },
 ];
 
