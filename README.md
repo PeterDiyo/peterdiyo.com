@@ -8,7 +8,7 @@ Welcome to my portfolio website(Peter Diyo)! This repository contains the source
 - [Features](#features) 
 - [Technologies Used](#technologies-used) 
 - [Usage](#Usage)  
-- [Contributing](#contributing)
+- [Contributing](#contributing) 
  
 ## Description  
  
