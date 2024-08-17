@@ -2,7 +2,7 @@
       
 Welcome to my portfolio website(Peter Diyo)! This repository contains the source code for my personal portfolio website.   
   
-## Table of Contents 
+## Table of Contents  
    
 - [Description](#description)    
 - [Features](#features)   
