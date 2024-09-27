@@ -4,10 +4,10 @@ Welcome to my portfolio website(Peter Diyo)! This repository contains the source
   
 ## Table of Contents  
    
-- [Description](#description)    
-- [Features](#features)   
+- [Description](#description)   
+- [Features](#features) 
 - [Technologies Used](#technologies-used) 
-- [Usage](#Usage)        
+- [Usage](#Usage)     
 - [Contributing](#contributing)  
  
 ## Description    
