@@ -12,10 +12,11 @@ const About = () => {
             Hello, I am Peter Diyo, a passionate learner and Software Engineer.
             With strong problem solving skills, I have developed a strong
             expertise in Software Engineering. <br />I specialize in Software
-            Development and have worked on projects such as the ones in my
-            projects section below. My approach to work is Collaborative,
-            detail-oriented, proactive and result-driven, emphasizing Technical
-            Proficiency, Strong Communication and Analytical Thinking.
+            Development and have worked on real world projects, check them out
+            in my projects section below and on my projects website. My approach
+            to work is Collaborative, detail-oriented, proactive and
+            result-driven, emphasizing Technical Proficiency, Strong
+            Communication and Analytical Thinking.
             <br />I continuously strive to stay updated with the latest trends
             and advancements in the industry.
           </p>

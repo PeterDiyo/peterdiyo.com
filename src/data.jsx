@@ -1,7 +1,6 @@
 import DiyoMix from "./assets/projects/diyomix.png";
 import CG from "./assets/projects/CG.png";
 import imgs from "./assets/projects/imgs.png";
-import menu from "./assets/projects/menu.png";
 import Viz from "./assets/projects/Visualizer.png";
 import Shopcart from "./assets/projects/shopcart.png";
 import DiyoStore from "./assets/projects/dstore.png";
@@ -14,7 +13,7 @@ import Poem from "./assets/GalleryImages/1poem.jpg";
 import MathO from "./assets/GalleryImages/mathO.jpg";
 import ZamIR from "./assets/GalleryImages/ZamIR.jpg";
 import Nfair from "./assets/GalleryImages/Nfair.jpg";
-import Rfair from "./assets/GalleryImages/Rfair.jpg";
+import MetaFrontend from "./assets/GalleryImages/MetaFrontEnd.jpg";
 import Headboy from "./assets/GalleryImages/Headboy.jpg";
 import SII from "./assets/GalleryImages/SII.jpg";
 import SWE from "./assets/GalleryImages/SWE.jpg";
@@ -27,7 +26,7 @@ import { SiNextdotjs, SiTypescript } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
 export const links = [
-  { id: nanoid(), href: "#home", text: "home" },
+  { id: nanoid(), href: "#home", text: "Home" },
   { id: nanoid(), href: "#skills", text: "skills" },
   { id: nanoid(), href: "#about", text: "about" },
   { id: nanoid(), href: "#projects", text: "projects" },
@@ -175,14 +174,19 @@ export const galleryData = [
   },
   {
     id: nanoid(),
-    imageUrl: Java,
-    description: "Java 17 Masterclass from Udemy - 2024",
+    imageUrl: MetaFrontend,
+    description: "Front-End Developer Certification from Meta - 2024",
   },
   {
     id: nanoid(),
     imageUrl: ThreeLit,
     description:
       "Won Essay Writing(first place) and Debate(Third place) - 2024",
+  },
+  {
+    id: nanoid(),
+    imageUrl: Java,
+    description: "Java 17 Masterclass from Udemy - 2024",
   },
   {
     id: nanoid(),
